@@ -104,7 +104,7 @@ function InsertWords() {
     if (word == book[i])
       return (document.getElementById(
         "errorMessage"
-      ).innerHTML += `<p> The word is allready inserted.</p>`);
+      ).innerHTML += `<p> The word is already inserted.</p>`);
   }
   book.push(word);
 }
