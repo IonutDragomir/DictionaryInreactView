@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/DictionaryInreactView/static/css/main.a0a1bc26.chunk.css",
-    "main.js": "/DictionaryInreactView/static/js/main.d90a4111.chunk.js",
-    "main.js.map": "/DictionaryInreactView/static/js/main.d90a4111.chunk.js.map",
+    "main.js": "/DictionaryInreactView/static/js/main.228445eb.chunk.js",
+    "main.js.map": "/DictionaryInreactView/static/js/main.228445eb.chunk.js.map",
     "runtime-main.js": "/DictionaryInreactView/static/js/runtime-main.b2c6ce10.js",
     "runtime-main.js.map": "/DictionaryInreactView/static/js/runtime-main.b2c6ce10.js.map",
-    "static/js/2.6881ea7e.chunk.js": "/DictionaryInreactView/static/js/2.6881ea7e.chunk.js",
-    "static/js/2.6881ea7e.chunk.js.map": "/DictionaryInreactView/static/js/2.6881ea7e.chunk.js.map",
+    "static/js/2.69aa49c7.chunk.js": "/DictionaryInreactView/static/js/2.69aa49c7.chunk.js",
+    "static/js/2.69aa49c7.chunk.js.map": "/DictionaryInreactView/static/js/2.69aa49c7.chunk.js.map",
     "index.html": "/DictionaryInreactView/index.html",
     "static/css/main.a0a1bc26.chunk.css.map": "/DictionaryInreactView/static/css/main.a0a1bc26.chunk.css.map",
-    "static/js/2.6881ea7e.chunk.js.LICENSE.txt": "/DictionaryInreactView/static/js/2.6881ea7e.chunk.js.LICENSE.txt"
+    "static/js/2.69aa49c7.chunk.js.LICENSE.txt": "/DictionaryInreactView/static/js/2.69aa49c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b2c6ce10.js",
-    "static/js/2.6881ea7e.chunk.js",
+    "static/js/2.69aa49c7.chunk.js",
     "static/css/main.a0a1bc26.chunk.css",
-    "static/js/main.d90a4111.chunk.js"
+    "static/js/main.228445eb.chunk.js"
   ]
 }
