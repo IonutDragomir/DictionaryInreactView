@@ -1,4 +1,4 @@
-export const SideBox = () => {
+export function SideBox(props) {
   return (
     <div className="SideBox">
       <p className="errorTitle">Message:</p>
@@ -11,7 +11,7 @@ export const SideBox = () => {
       >
         Clear
       </button>
-      <div id="errorMessage"></div>
+      <div id="errorMessage">{props.message}</div>
     </div>
   );
-};
+}

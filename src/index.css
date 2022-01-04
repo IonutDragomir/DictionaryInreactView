@@ -17,17 +17,13 @@ body {
   grid-row-end: 1;
   grid-column-start: 1;
   grid-column-end: 4;
-  
 }
 
 .InnerContainer {
   grid-row-start: 2;
   grid-column-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 8;
   grid-column-end: 3;
-  display: grid;
-  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-  justify-content: center;
   background-color: white;
 }
 
@@ -42,7 +38,7 @@ body {
 }
 
 .errorTitle {
-  margin-left: 3px;
+  margin-left: 6px;
   margin-bottom: 1px;
   color: red;
   font-weight: 600;
@@ -50,37 +46,33 @@ body {
 
 #errorMessage {
   color: red;
+  margin-left: 6px;
 }
 
 .Title {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  
   color: #125f9b;
   font-family: monospace;
   font-size: xxx-large;
   font-weight: 600;
+  margin-bottom: 50px;
 }
 
-.InputText {
-  grid-row-start: 3;
-  grid-row-end: 5;
-  grid-column-start: 1;
-  grid-column-end: 3;
+.Dictionary,
+.InnerContainer {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-
 }
 
-.insertWords, .insertButton, .showButton, .hideButton, #clearMessageError {
+.insertWords,
+.insertButton,
+.showButton,
+.hideButton,
+#clearMessageError {
   border-radius: 10px;
   margin: 3px;
   border: 2px solid #125f9b;
@@ -89,9 +81,5 @@ body {
 }
 
 .Dictionary {
-  grid-row-start: 6;
-  grid-row-end: 8;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background-color: white;
+  margin-top: 100px;
 }
